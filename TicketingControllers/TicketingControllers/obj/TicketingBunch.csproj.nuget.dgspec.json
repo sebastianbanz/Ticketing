@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\swhiffen\\Desktop\\Ticketing\\TicketingControllers\\TicketingControllers\\TicketingBunch.csproj": {}
+    "C:\\Users\\swhiffen\\Desktop\\Ticketing_Real\\TicketingControllers\\TicketingControllers\\TicketingBunch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\swhiffen\\Desktop\\Ticketing\\TicketingControllers\\TicketingControllers\\TicketingBunch.csproj": {
+    "C:\\Users\\swhiffen\\Desktop\\Ticketing_Real\\TicketingControllers\\TicketingControllers\\TicketingBunch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\swhiffen\\Desktop\\Ticketing\\TicketingControllers\\TicketingControllers\\TicketingBunch.csproj",
+        "projectUniqueName": "C:\\Users\\swhiffen\\Desktop\\Ticketing_Real\\TicketingControllers\\TicketingControllers\\TicketingBunch.csproj",
         "projectName": "TicketingBunch",
-        "projectPath": "C:\\Users\\swhiffen\\Desktop\\Ticketing\\TicketingControllers\\TicketingControllers\\TicketingBunch.csproj",
+        "projectPath": "C:\\Users\\swhiffen\\Desktop\\Ticketing_Real\\TicketingControllers\\TicketingControllers\\TicketingBunch.csproj",
         "packagesPath": "C:\\Users\\swhiffen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\swhiffen\\Desktop\\Ticketing\\TicketingControllers\\TicketingControllers\\obj\\",
+        "outputPath": "C:\\Users\\swhiffen\\Desktop\\Ticketing_Real\\TicketingControllers\\TicketingControllers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\swhiffen\\AppData\\Roaming\\NuGet\\NuGet.Config",

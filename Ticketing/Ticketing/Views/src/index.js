@@ -18,7 +18,7 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import { action as destroyAction } from "./routes/destroy";
-import Index from "./routes/index";
+import Index from "./routes/Home";
 
 
 const router = createBrowserRouter([

@@ -391,9 +391,9 @@ i {
     width: 100%;
 }
 
-#home-button {
-
-    color:red;
-
-
+.home-header {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #e3e3e3;
+        
 }

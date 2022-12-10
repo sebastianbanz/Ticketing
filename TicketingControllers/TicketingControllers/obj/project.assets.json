@@ -10156,19 +10156,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\swhiffen\\.nuget\\packages\\": {}
+    "C:\\Users\\sebas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\swhiffen\\Desktop\\Ticketing_Real\\TicketingControllers\\TicketingControllers\\TicketingBunch.csproj",
+      "projectUniqueName": "C:\\Users\\sebas\\Desktop\\Ticketing_Real\\TicketingControllers\\TicketingControllers\\TicketingBunch.csproj",
       "projectName": "TicketingBunch",
-      "projectPath": "C:\\Users\\swhiffen\\Desktop\\Ticketing_Real\\TicketingControllers\\TicketingControllers\\TicketingBunch.csproj",
-      "packagesPath": "C:\\Users\\swhiffen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\swhiffen\\Desktop\\Ticketing_Real\\TicketingControllers\\TicketingControllers\\obj\\",
+      "projectPath": "C:\\Users\\sebas\\Desktop\\Ticketing_Real\\TicketingControllers\\TicketingControllers\\TicketingBunch.csproj",
+      "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sebas\\Desktop\\Ticketing_Real\\TicketingControllers\\TicketingControllers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\swhiffen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10240,7 +10240,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -381,7 +381,6 @@ i {
     #zero-state:before {
         display: block;
         margin-bottom: 0.5rem;
-        content: "Hiiiii"
     }
 
 #error-page {
@@ -390,4 +389,11 @@ i {
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+
+#home-button {
+
+    color:red;
+
+
 }

@@ -1,8 +1,9 @@
 export default function Index() {
     return (
-        <p id="zero-state">
-            Sebsite asf
-            <br />
-        </p>
+        <div>
+        <h1> hello everyone </h1>
+            
+
+        </div>
     );
 }

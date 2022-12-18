@@ -4,7 +4,7 @@ using Ticketing.Models;
 
 namespace TicketingBunch.Controllers;
 
-[Route("api/[controller]")]
+[Route("[controller]")]
 [ApiController]
 public class IndividualController : ControllerBase
 {

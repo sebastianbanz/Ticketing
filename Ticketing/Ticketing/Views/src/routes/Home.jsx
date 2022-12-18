@@ -1,16 +1,24 @@
 
+import { exampleFunction } from "../ViewControllers/home"
+
 
 function Header() {
+
+    
+
     return (
         <div className="home-header" id="header">
             
-            <h1>hello</h1>
+           <body> 
+              
+
+          <h1>Hello</h1>
+
+            </body>
+         
+           
         </div>
-
-        
-        
-
-
+      
     );
 }
 
@@ -24,7 +32,7 @@ function HomeContent()
             <h3> React </h3>
                 <h3>   C#</h3>
                     <h3>  and javascript </h3>
-
+                    <button onClick={exampleFunction}>hi</button>
         </div>
 
     )

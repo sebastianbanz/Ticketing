@@ -4,7 +4,7 @@ import {
     redirect,
     useNavigate
 } from "react-router-dom";
-import { updateContact } from "../contacts"; 
+import { updateContact } from "../ViewControllers/contacts"; 
 
 export async function action({ request, params })
 {

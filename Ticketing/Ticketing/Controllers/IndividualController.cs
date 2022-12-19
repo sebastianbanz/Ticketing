@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Ticketing.Models;
 
-namespace TicketingBunch.Controllers;
+namespace Ticketing.Controllers;
 
 [Route("[controller]")]
 [ApiController]

@@ -32,7 +32,7 @@ function HomeContent()
             <h3> React </h3>
                 <h3>   C#</h3>
                     <h3>  and javascript </h3>
-                    <button onClick={exampleFunction}>hi</button>
+                    <button onClick={exampleFunction}>individuals</button>
         </div>
 
     )

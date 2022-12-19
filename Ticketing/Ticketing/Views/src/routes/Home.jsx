@@ -1,10 +1,7 @@
 
-import { exampleFunction } from "../ViewControllers/home"
-
+import React, { useState, useEffect } from 'react';
 
 function Header() {
-
-    
 
     return (
         <div className="home-header" id="header">
@@ -22,21 +19,34 @@ function Header() {
     );
 }
 
-function HomeContent()
+async function HomeContent()
 {
+    const [name, setName] = useState([]);
+
+    useEffect(() => {getNames()})
+
+    const getNames = async () => {
+
+        const response = await fetch('https://localhost:44478/Individual/1');
+        setName(await response.json());
+    }
+
+
+
     return (
-         
+
         <div>
 
-            <h3> This website is made using:</h3>
-            <h3> React </h3>
-                <h3>   C#</h3>
-                    <h3>  and javascript </h3>
-                    <button onClick={exampleFunction}>individuals</button>
+            {name.map((data) => {
+                return (
+                    <h3 key={data.id}> {data.fname} </h3>
+                )
+            })}
+
         </div>
 
     )
-    
+ 
 }
 
 export default function Home()
@@ -44,7 +54,7 @@ export default function Home()
     return (
         <div>
 
-            <Header />
+            <Header/>
             <HomeContent />
             
         </div>

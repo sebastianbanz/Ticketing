@@ -13,7 +13,6 @@ export async function getContacts(query) {
 }
 
 export async function createContact() {
-  await fakeNetwork();
   let id = Math.random().toString(36).substring(2, 9);
   let contact = { id, createdAt: Date.now() };
   let contacts = await getContacts();
@@ -30,7 +29,6 @@ export async function getContact(id) {
 }
 
 export async function updateContact(id, updates) {
-  await fakeNetwork();
   let contacts = await localforage.getItem("contacts");
   let contact = contacts.find((contact) => contact.id === id);
   if (!contact) throw new Error("No contact found for", id);

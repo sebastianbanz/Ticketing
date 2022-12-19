@@ -2,8 +2,12 @@
 
 export async function exampleFunction() {
 
-    fetch('https://localhost:44478/Individual')
-        .then((response) => response.json())
-        .then((data) => console.log(data));
-    
+        let response = await fetch('https://localhost:44478/Individual/1');
+        let data = await response.json();
+    console.log(data.id, data.fname)
+    return (
+        data
+    );
 }
+
+

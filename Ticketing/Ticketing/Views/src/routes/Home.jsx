@@ -1,53 +1,46 @@
 
-import React, { useState, useEffect } from 'react';
+import { getUser } from '../ViewControllers/home.ts' 
+import React, { useEffect, useState } from "react"
 
 function Header() {
 
     return (
         <div className="home-header" id="header">
             
-           <body> 
-              
+          
 
           <h1>Hello</h1>
 
-            </body>
-         
+       
            
         </div>
       
     );
 }
 
-async function HomeContent()
-{
-    const [name, setName] = useState([]);
+const HomeContent = () => {
+    const [posts, setPosts] = useState([]);
 
-    useEffect(() => {getNames()})
-
-    const getNames = async () => {
-
-        const response = await fetch('https://localhost:44478/Individual/1');
-        setName(await response.json());
-    }
-
-
+    useEffect(() => {
+        fetch('https://localhost:44478/Individual/1')
+            .then((res) => res.json())
+            .then((data) => {
+                console.log(data);
+                setPosts(data);
+            })
+            .catch((err) => {
+                console.log(err.message);
+            });
+    }, []);
 
     return (
-
         <div>
-
-            {name.map((data) => {
-                return (
-                    <h3 key={data.id}> {data.fname} </h3>
-                )
-            })}
-
+            {posts.fname}
         </div>
-
-    )
+   );
+};
  
-}
+   
 
 export default function Home()
 {

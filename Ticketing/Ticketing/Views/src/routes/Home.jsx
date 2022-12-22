@@ -1,9 +1,7 @@
 
-import { getUser } from '../ViewControllers/home.ts' 
 import React, { useEffect, useState } from "react"
 
 function Header() {
-
     return (
         <div className="home-header" id="header">
             
@@ -19,14 +17,14 @@ function Header() {
 }
 
 const HomeContent = () => {
-    const [posts, setPosts] = useState([]);
+    const [individual, setIndividual] = useState([]);
 
     useEffect(() => {
         fetch('https://localhost:44478/Individual/1')
             .then((res) => res.json())
             .then((data) => {
                 console.log(data);
-                setPosts(data);
+                setIndividual(data);
             })
             .catch((err) => {
                 console.log(err.message);
@@ -35,7 +33,7 @@ const HomeContent = () => {
 
     return (
         <div>
-            {posts.fname}
+            <h3>{individual.fname}</h3>
         </div>
    );
 };

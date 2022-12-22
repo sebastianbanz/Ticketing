@@ -1,0 +1,15 @@
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\bin\Debug\net6.0\DbDomain.exe
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\bin\Debug\net6.0\DbDomain.deps.json
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\bin\Debug\net6.0\DbDomain.runtimeconfig.json
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\bin\Debug\net6.0\DbDomain.dll
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\bin\Debug\net6.0\DbDomain.pdb
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\obj\Debug\net6.0\DbDomain.csproj.AssemblyReference.cache
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\obj\Debug\net6.0\DbDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\obj\Debug\net6.0\DbDomain.AssemblyInfoInputs.cache
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\obj\Debug\net6.0\DbDomain.AssemblyInfo.cs
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\obj\Debug\net6.0\DbDomain.csproj.CoreCompileInputs.cache
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\obj\Debug\net6.0\DbDomain.dll
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\obj\Debug\net6.0\refint\DbDomain.dll
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\obj\Debug\net6.0\DbDomain.pdb
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\obj\Debug\net6.0\DbDomain.genruntimeconfig.cache
+C:\Users\swhiffen\Desktop\Ticketing_Real\Ticketing\DbDomain\obj\Debug\net6.0\ref\DbDomain.dll

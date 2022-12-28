@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44478",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\swhiffen\\Desktop\\Ticketing_Real\\Ticketing\\Ticketing\\Views\\",
+"MaxTimeoutInSeconds": "120"
+}
+}

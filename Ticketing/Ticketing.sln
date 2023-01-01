@@ -5,8 +5,6 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticketing", "Ticketing\Ticketing.csproj", "{126EC5E7-918F-49C0-BB43-54C868EB4DE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbDomain", "DbDomain\DbDomain.csproj", "{510D4764-B5E8-439C-A153-B3DA3B505EDB}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{126EC5E7-918F-49C0-BB43-54C868EB4DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{126EC5E7-918F-49C0-BB43-54C868EB4DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{126EC5E7-918F-49C0-BB43-54C868EB4DE2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{510D4764-B5E8-439C-A153-B3DA3B505EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{510D4764-B5E8-439C-A153-B3DA3B505EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{510D4764-B5E8-439C-A153-B3DA3B505EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{510D4764-B5E8-439C-A153-B3DA3B505EDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

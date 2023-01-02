@@ -10,7 +10,7 @@ namespace DbDomain.Interfaces
 {
     public interface IIndividual
     {
-        ActionResult<Individual> GetIndividual(int id);
+        IEnumerable<Individual> GetIndividual(int id);
 
         void AddIndividual(string Fname);
     }

@@ -20,11 +20,11 @@ const HomeContent = () => {
     const [individual, setIndividual] = useState([]);
 
     useEffect(() => {
-        fetch('https://localhost:44478/Individual/1')
+        fetch('https://localhost:44478/Individual/2')
             .then((res) => res.json())
             .then((data) => {
                 console.log(data);
-                setIndividual(data);
+                setIndividual(data[0]);
             })
             .catch((err) => {
                 console.log(err.message);

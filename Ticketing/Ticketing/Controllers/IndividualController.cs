@@ -22,7 +22,7 @@ public class IndividualController : ControllerBase, IIndividual
     }
 
     [HttpGet("{id}")]
-    public ActionResult<Individual> GetIndividual(int id)
+    public IEnumerable<Individual> GetIndividual(int id)
     {
         using var context = new Context();
 
@@ -30,7 +30,7 @@ public class IndividualController : ControllerBase, IIndividual
 
         var individual = individuals.Where(c => c.Id.Equals(id));
 
-        return Ok(individual); 
+        return individual; 
 
        
     }

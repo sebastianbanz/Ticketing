@@ -12,6 +12,7 @@ namespace Ticketing.Controllers;
 [ApiController]
 public class IndividualController : ControllerBase, IIndividual
 {
+
     [HttpGet]
     public IEnumerable<Individual> GetIndividuals()
     {

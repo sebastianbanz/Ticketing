@@ -9,6 +9,12 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+using (Context context = new Context())
+{
+    context.Database.EnsureCreated();
+}
+
+
 var app = builder.Build();
 
 app.UseSwagger();

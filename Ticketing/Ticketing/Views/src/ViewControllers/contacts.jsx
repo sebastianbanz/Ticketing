@@ -1,25 +1,49 @@
 import localforage from "localforage";
 import { matchSorter } from "match-sorter";
 import sortBy from "sort-by";
+import { useEffect, useState, useLayoutEffect } from 'react';
 
-export async function getContacts(query) {
-  await fakeNetwork(`getContacts:${query}`);
-  let contacts = await localforage.getItem("contacts");
-  if (!contacts) contacts = [];
+
+const Content = () => {
+    const [individual, setIndividual] = useState([]);
+
+    useEffect(() => {
+        fetch('https://localhost:44478/Individual/2')
+            .then((res) => res.json())
+            .then((data) => {
+                console.log(data);
+                setIndividual(data[0]);
+            })
+            .catch((err) => {
+                console.log(err.message);
+            });
+    }, []);
+
+    return ( individual );
+};
+
+
+
+
+export async function getIndividual(query) {
+
+    let individual = Content();
+    
+    if (!individual) individual = [];
   if (query) {
-    contacts = matchSorter(contacts, query, { keys: ["first", "last"] });
+      individual = matchSorter(individual, query, { keys: ["first", "last"] });
   }
-  return contacts.sort(sortBy("last", "createdAt"));
+    return individual.sort(sortBy("last", "createdAt"));
 }
 
 export async function createContact() {
   let id = Math.random().toString(36).substring(2, 9);
   let contact = { id, createdAt: Date.now() };
-  let contacts = await getContacts();
+    let contacts = await getIndividual();
   contacts.unshift(contact);
   await set(contacts);
   return contact;
-}
+} 
 
 export async function getContact(id) {
   await fakeNetwork(`contact:${id}`);

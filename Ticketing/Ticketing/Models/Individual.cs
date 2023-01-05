@@ -3,9 +3,13 @@
     public class Individual
     {
 
-        public int Id { get; set; }
-        public string? Fname { get; set; }
-        public string? Lname { get; set; }
-
+        public string? avatar { get; set; }
+        public int? createdAt { get; set; }
+        public string? first { get; set; }
+        public string? last { get; set; }
+        public int? id { get; set; }
+        public string? notes { get; set; }
+        public string? twitter { get; set; }
+       
     }
 }

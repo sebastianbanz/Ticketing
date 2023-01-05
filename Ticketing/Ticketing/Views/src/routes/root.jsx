@@ -10,7 +10,7 @@
 } from "react-router-dom";
 import { useEffect } from "react";
 
-import { getContacts, createContact } from "../ViewControllers/contacts";
+import { getIndividual, createContact } from "../ViewControllers/contacts";
 
 export async function action() {
     const contact = await createContact();
@@ -20,7 +20,7 @@ export async function action() {
 export async function loader({ request }) {
     const url = new URL(request.url);
     const q = url.searchParams.get("q");
-    const contacts = await getContacts(q);
+    const contacts = await getIndividual(q);
     return { contacts, q };
 }
 

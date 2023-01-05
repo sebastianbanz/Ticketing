@@ -13,5 +13,7 @@ namespace DbDomain.Interfaces
         IEnumerable<Individual> GetIndividual(int id);
 
         void AddIndividual(string Fname);
+
+        public IEnumerable<Individual> GetIndividuals();
     }
 }
